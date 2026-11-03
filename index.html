@@ -61,7 +61,7 @@
             <div class="car-info">
               <h3>Jaguar E-Type</h3>
               <dl><dt>Anno</dt><dd>1968</dd><dt>Km</dt><dd>84.200</dd><dt>Prezzo</dt><dd>148.000 €</dd></dl>
-              <a class="ask" href="https://wa.me/393330000000?text=Ciao%2C%20vorrei%20info%20sulla%20Jaguar%20E-Type" target="_blank" rel="noopener">Chiedi informazioni</a>
+              <a class="ask" href="#" data-demo>Chiedi informazioni</a>
             </div>
           </article>
           <article class="car">
@@ -69,7 +69,7 @@
             <div class="car-info">
               <h3>MGB Roadster</h3>
               <dl><dt>Anno</dt><dd>1971</dd><dt>Km</dt><dd>112.500</dd><dt>Prezzo</dt><dd>26.500 €</dd></dl>
-              <a class="ask" href="https://wa.me/393330000000?text=Ciao%2C%20vorrei%20info%20sulla%20MGB%20Roadster" target="_blank" rel="noopener">Chiedi informazioni</a>
+              <a class="ask" href="#" data-demo>Chiedi informazioni</a>
             </div>
           </article>
           <article class="car">
@@ -77,7 +77,7 @@
             <div class="car-info">
               <h3>Ford Mustang</h3>
               <dl><dt>Anno</dt><dd>1969</dd><dt>Km</dt><dd>97.000</dd><dt>Prezzo</dt><dd>54.000 €</dd></dl>
-              <a class="ask" href="https://wa.me/393330000000?text=Ciao%2C%20vorrei%20info%20sulla%20Ford%20Mustang" target="_blank" rel="noopener">Chiedi informazioni</a>
+              <a class="ask" href="#" data-demo>Chiedi informazioni</a>
             </div>
           </article>
           <article class="car">
@@ -85,7 +85,7 @@
             <div class="car-info">
               <h3>Cobra 427 replica</h3>
               <dl><dt>Anno</dt><dd>1989</dd><dt>Km</dt><dd>31.800</dd><dt>Prezzo</dt><dd>72.000 €</dd></dl>
-              <a class="ask" href="https://wa.me/393330000000?text=Ciao%2C%20vorrei%20info%20sulla%20Cobra%20427" target="_blank" rel="noopener">Chiedi informazioni</a>
+              <a class="ask" href="#" data-demo>Chiedi informazioni</a>
             </div>
           </article>
           <article class="car">
@@ -93,7 +93,7 @@
             <div class="car-info">
               <h3>Excalibur Phaeton</h3>
               <dl><dt>Anno</dt><dd>1976</dd><dt>Km</dt><dd>45.300</dd><dt>Prezzo</dt><dd>64.000 €</dd></dl>
-              <a class="ask" href="https://wa.me/393330000000?text=Ciao%2C%20vorrei%20info%20sulla%20Excalibur" target="_blank" rel="noopener">Chiedi informazioni</a>
+              <a class="ask" href="#" data-demo>Chiedi informazioni</a>
             </div>
           </article>
         </div>
@@ -124,11 +124,11 @@
         <div class="visit-grid">
           <div><h3>Dove</h3><p>Via Emilia Est 1120<br />41122 Modena</p></div>
           <div><h3>Quando</h3><p>Da lunedì a venerdì 8:30-18:30<br />Sabato su appuntamento</p></div>
-          <div><h3>Telefono</h3><p><a href="tel:+393330000000">+39 333 000 0000</a></p></div>
+          <div><h3>Telefono</h3><p><a href="#" data-demo>+39 333 000 0000</a></p></div>
         </div>
         <div class="visit-actions">
-          <a class="pill pill-y" href="https://wa.me/393330000000?text=Ciao%2C%20vorrei%20prenotare%20una%20visita" target="_blank" rel="noopener">Prenota su WhatsApp</a>
-          <a class="pill pill-line" href="tel:+393330000000">Chiama</a>
+          <a class="pill pill-y" href="#" data-demo>Prenota su WhatsApp</a>
+          <a class="pill pill-line" href="#" data-demo>Chiama</a>
         </div>
       </div>
     </section>
@@ -143,5 +143,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
   <script src="main.js"></script>
+<script>
+(function(){var t;window.demoToast=function(){if(!t){t=document.createElement('div');t.setAttribute('role','status');t.style.cssText='position:fixed;left:50%;bottom:96px;transform:translate(-50%,16px);background:#fff;color:#111;border:1px solid rgba(0,0,0,.12);font:500 15px/1.4 system-ui,sans-serif;padding:12px 18px;border-radius:14px;box-shadow:0 8px 30px rgba(0,0,0,.25);z-index:99999;opacity:0;transition:opacity .25s,transform .25s;width:max-content;max-width:calc(100% - 32px);text-align:center;pointer-events:none';document.body.appendChild(t)}t.textContent='Sito dimostrativo: i contatti non sono attivi.';requestAnimationFrame(function(){t.style.opacity=1;t.style.transform='translate(-50%,0)'});clearTimeout(t._h);t._h=setTimeout(function(){t.style.opacity=0;t.style.transform='translate(-50%,16px)'},2600)};document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[data-demo]');if(a){e.preventDefault();window.demoToast()}})})();
+</script>
 </body>
 </html>
